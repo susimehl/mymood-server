@@ -6,7 +6,7 @@ const moodsSchema = new Schema({
     source: String,
     topic:{
         type: String,
-        enum: ["development", "dogs", "berlin", "pop culture", "random"]
+        enum: [ "dogs", "berlin", "pop culture", "infinite jest", "random"]
     }
 },
 {
